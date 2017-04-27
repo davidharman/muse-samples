@@ -1,23 +1,24 @@
 {
   "extensions": [
     {
+      "application": "[Your Name] Homepage Customization Sample",
       "payload": {
         "match": {
-          "user-name":"[Your Name]",
+          "user-name": "[Your Name]",
           "url": "homepage"
         },
         "include-files": [
-          "myfolder/myscript.js"
+          "samples/myfolder/myscript.js"
         ]
       },
-      "name": "[Your Name] MyScript",
+      "name": "[Your Name] Homepage Customization Extension",
       "type": "com.ibm.homepage"
     }
   ],
-  "name": "[Your Name] MyScript Homepage Customizations",
-  "description": "[Your Name] MyScript Homepage Customization",
+  "name": "[Your Name] Homepage Customization Sample",
+  "description": "[Your Name] Homepage Customization Sample",
   "services": [
     "Muse"
   ],
-  "title": "[Your Name] MyScript Homepage Customization"
+  "title": "[Your Name] Homepage Customization Sample"
 }
