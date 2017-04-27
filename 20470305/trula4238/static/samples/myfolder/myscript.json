@@ -1,0 +1,23 @@
+{
+  "extensions": [
+    {
+      "payload": {
+        "match": {
+          "user-name":"[Your Name]",
+          "url": "homepage"
+        },
+        "include-files": [
+          "myfolder/myscript.js"
+        ]
+      },
+      "name": "[Your Name] MyScript",
+      "type": "com.ibm.homepage"
+    }
+  ],
+  "name": "[Your Name] MyScript Homepage Customizations",
+  "description": "[Your Name] MyScript Homepage Customization",
+  "services": [
+    "Muse"
+  ],
+  "title": "[Your Name] MyScript Homepage Customization"
+}
